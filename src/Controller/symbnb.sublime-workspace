@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"boo",
+				"booking"
+			],
+			[
+				"amin",
+				"adminRole"
+			],
+			[
+				"adm",
+				"adminRole"
+			],
+			[
 				"fun",
 				"function"
 			],
@@ -31,6 +43,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/wamp/www/symbnb/src/Form/DataTransformer/FrenchToDateTimeTransformer.php",
+			"settings":
+			{
+				"buffer_size": 806,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "FrenchToDateTimeTransformer.php"
+			}
+		},
+		{
+			"file": "/C/wamp/www/symbnb/src/Form/BookingType.php",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -70,34 +101,51 @@
 	[
 		"/C/wamp/www/symbnb",
 		"/C/wamp/www/symbnb/bin",
-		"/C/wamp/www/symbnb/config",
-		"/C/wamp/www/symbnb/config/packages",
 		"/C/wamp/www/symbnb/public",
 		"/C/wamp/www/symbnb/public/css",
+		"/C/wamp/www/symbnb/public/js",
 		"/C/wamp/www/symbnb/src",
 		"/C/wamp/www/symbnb/src/Controller",
-		"/C/wamp/www/symbnb/src/DataFixtures",
-		"/C/wamp/www/symbnb/src/Entity",
 		"/C/wamp/www/symbnb/src/Form",
 		"/C/wamp/www/symbnb/templates",
 		"/C/wamp/www/symbnb/templates/account",
 		"/C/wamp/www/symbnb/templates/ad",
+		"/C/wamp/www/symbnb/templates/booking",
+		"/C/wamp/www/symbnb/templates/bundles",
+		"/C/wamp/www/symbnb/templates/bundles/TwigBundle",
+		"/C/wamp/www/symbnb/templates/bundles/TwigBundle/Exception",
 		"/C/wamp/www/symbnb/templates/partials",
 		"/C/wamp/www/symbnb/templates/user",
-		"/C/wamp/www/symbnb/tests"
+		"/C/wamp/www/symbnb/tests",
+		"/C/wamp/www/symbnb/translations",
+		"/C/wamp/www/symbnb/var",
+		"/C/wamp/www/symbnb/var/cache"
 	],
 	"file_history":
 	[
-		"/C/wamp/www/symbnb/templates/ad/show.html.twig",
-		"/C/wamp/www/symbnb/templates/partials/header.html.twig",
-		"/C/wamp/www/symbnb/src/Controller/AccountController.php",
-		"/C/wamp/www/symbnb/templates/user/index.html.twig",
+		"/C/wamp/www/symbnb/templates/booking/book.html.twig",
+		"/C/wamp/www/symbnb/src/Entity/Ad.php",
 		"/C/wamp/www/symbnb/public/css/app.css",
-		"/C/wamp/www/symbnb/src/Controller/AdController.php",
-		"/C/wamp/www/symbnb/src/Controller/UserController.php",
-		"/C/wamp/www/symbnb/src/Entity/User.php",
-		"/C/wamp/www/symbnb/templates/ad/index.html.twig",
+		"/C/wamp/www/symbnb/src/Controller/BookingController.php",
+		"/C/wamp/www/symbnb/src/Entity/Booking.php",
+		"/C/wamp/www/symbnb/src/Form/BookingType.php",
+		"/C/wamp/www/symbnb/templates/booking/show.html.twig",
+		"/C/wamp/www/symbnb/src/Entity/Image.php",
+		"/C/wamp/www/symbnb/templates/ad/show.html.twig",
+		"/C/wamp/www/symbnb/src/DataFixtures/AppFixtures.php",
 		"/C/wamp/www/symbnb/templates/ad/_ad.html.twig",
+		"/C/wamp/www/symbnb/templates/bundles/TwigBundle/Exception/error403.html.twig",
+		"/C/wamp/www/symbnb/templates/bundles/error404.html.twig",
+		"/C/wamp/www/symbnb/src/Controller/AdController.php",
+		"/C/wamp/www/symbnb/src/Entity/User.php",
+		"/C/wamp/www/symbnb/.env",
+		"/C/wamp/www/symbnb/templates/bundles/TwigBundle/Exception/error404.html.twig",
+		"/C/wamp/www/symbnb/src/Controller/AccountController.php",
+		"/C/wamp/www/mon-super-projet/vendor/doctrine/collections/lib/Doctrine/Common/Collections/Criteria.php",
+		"/C/wamp/www/symbnb/templates/partials/header.html.twig",
+		"/C/wamp/www/symbnb/templates/user/index.html.twig",
+		"/C/wamp/www/symbnb/src/Controller/UserController.php",
+		"/C/wamp/www/symbnb/templates/ad/index.html.twig",
 		"/C/wamp/www/symbnb/src/Form/PasswordUpdateType.php",
 		"/C/wamp/www/symbnb/src/Entity/PasswordUpdate.php",
 		"/C/wamp/www/symbnb/templates/account/login.html.twig",
@@ -110,10 +158,8 @@
 		"/C/wamp/www/symbnb/src/Form/RegistrationType.php",
 		"/C/wamp/www/symbnb/src/Form/ApplicationType.php",
 		"/C/wamp/www/symbnb/src/Form/AdType.php",
-		"/C/wamp/www/symbnb/src/Entity/Ad.php",
 		"/C/wamp/www/symbnb/templates/account/registration.html.twig",
 		"/C/wamp/www/symbnb/config/packages/security.yaml",
-		"/C/wamp/www/symbnb/src/DataFixtures/AppFixtures.php",
 		"/C/wamp/www/symbnb/templates/ad/new.html.twig",
 		"/C/wamp/www/symbnb/templates/ad/edit.html.twig",
 		"/C/wamp/www/symbnb/templates/ad/edit.html.twig.old",
@@ -123,7 +169,6 @@
 		"/C/wamp/www/symbnb/templates/ad/base.html.twig",
 		"/C/wamp/www/symbnb/templates/ad/_collection.html.twig",
 		"/C/wamp/www/symbnb/public/js/ad.js",
-		"/C/wamp/www/symbnb/src/Entity/Image.php",
 		"/C/wamp/www/symbnb/src/Form/ImageType.php",
 		"/C/wamp/www/symbnb/templates/partials/footer.html.twig",
 		"/C/wamp/www/symbnb/config/packages/validator.yaml",
@@ -133,7 +178,6 @@
 		"/C/wamp/www/symbnb/templates/ad/new.html.twig.old",
 		"/C/wamp/www/symbnb/templates/ad/index.html.twig.old",
 		"/C/wamp/www/symbnb/src/DataFixtures/AppFixtures.old",
-		"/C/wamp/www/symbnb/.env",
 		"/C/wamp/www/symbnb/templates/home.html.twig.bak",
 		"/C/wamp/www/symbnb/config/services.yaml",
 		"/C/wamp/www/symbnb/config/bundles.php",
@@ -214,6 +258,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nex"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -231,14 +276,74 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/symbnb/src/Form/DataTransformer/FrenchToDateTimeTransformer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"auto_name": "FrenchToDateTimeTransformer.php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/symbnb/src/Form/BookingType.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1705,
+								1705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -279,7 +384,7 @@
 	"project": "symbnb.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -317,7 +422,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 253.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
