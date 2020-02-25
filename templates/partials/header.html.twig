@@ -12,22 +12,21 @@
        <li class="nav-item">
         <a class="nav-link" href="{{ path('admin_ads_index') }}"><i class="fas fa-hotel"></i>Annonces</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ path('admin_booking_index') }}">
+          <i class="fas fa-folder"></i>
+          Réservations</a>
       </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ path('admin_booking_index') }}">
-            <i class="fas fa-folder"></i>
-            Réservations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ path('admin_comment_index') }}">
-            <i class="fas fa-comments"></i>
-            Commentaires</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fas fa-users"></i>
-            Utilisateurs</a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ path('admin_comment_index') }}">
+          <i class="fas fa-comments"></i>
+          Commentaires</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-users"></i>
+          Utilisateurs</a>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       {% if app.user %}
